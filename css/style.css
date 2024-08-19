@@ -1,0 +1,88 @@
+/* Estilos globales */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Estilos para la barra de navegación */
+.navbar {
+    background-color: #1a1a1a;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffffff !important;
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff !important;
+    margin-right: 1rem;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ff6600 !important;
+}
+
+/* Estilos para el contenido principal */
+.container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #333;
+    
+}
+
+.container {
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.container p {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+/* Estilos para las tarjetas */
+.card {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    font-size: 1.3rem;
+    color: #333;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #777;
+}
+
+.card .btn-primary {
+    background-color: #ff6600;
+    border-color: #ff6600;
+}
+
+.card .btn-primary:hover {
+    background-color: #e65c00;
+    border-color: #e65c00;
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1rem;
+}
